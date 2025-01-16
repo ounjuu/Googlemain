@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./googlemain.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <div class="mainbar">
+          <div class="righticon1 righticon">
+            <a
+              href="https://workspace.google.com/intl/ko/gmail/"
+              target="_blank"
+              >Gmail</a
+            >
+          </div>
+          <div class="righticon2 righticon">
+            <a
+              href="https://www.google.com/imghp?hl=ko&tab=ri&ogbl"
+              target="_blank"
+              >이미지</a
+            >
+          </div>
+          <div class="righticon3 righticon">
+            <div class="righticoncenter">
+              <a
+                href="https://labs.google.com/search?source=ntp"
+                target="_blank"
+              >
+                <img src="./plask.svg" alt="plask" class="rightlogo2" />
+              </a>
+            </div>
+          </div>
+          <!-- <div class="righticon4 righticon">
+            <img src="./apps.png" alt="apps" class="rightlogo" />
+          </div> -->
+          <!-- apps -->
+          <div class="dropdown righticon4 righticon">
+            <button class="dropdown-button">
+              <!-- <img src="./apps.png" alt="apps" class="rightlogo" /> -->
+            </button>
+            <div class="dropdown-menu">
+              <div class="dropdown-grid">
+                <div class="dropdown-item">
+                  <i class="icon">🏠</i><span>Home</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">🔍</i><span>Search</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">📧</i><span>Messages</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">📅</i><span>Calendar</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">📁</i><span>Files</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">⚙️</i><span>Settings</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">⭐</i><span>Favorites</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">📞</i><span>Contact</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">📊</i><span>Analytics</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">🔔</i><span>Notifications</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">🔒</i><span>Security</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">📜</i><span>Documents</span>
+                </div>
+                <div class="dropdown-item">
+                  <i class="icon">❓</i><span>Help</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- apps -->
+        </div>
+      </div>
+      <div class="box2">
+        <div class="maincontainer">
+          <div class="mainbox mainbox1">
+            <img src="google_logo.svg" alt="googlelogo" class="googlelogo" />
+          </div>
+          <div class="mainbox mainbox2">
+            <input
+              type="text"
+              class="inputfind"
+              placeholder="Google 검색 혹은 URL 입력"
+            />
+            <img src="./find.png" alt="findicon" class="inputicon inputicon1" />
+
+            <img
+              src="./mic.svg"
+              alt="micicon"
+              class="inputicon inputicon2 clickable-image"
+            /><img
+              src="./camera.svg"
+              alt="camera"
+              class="inputicon inputicon3 clickable-image"
+            />
+          </div>
+
+          <!-- 메인 박스 3 -->
+          <div class="mainbox mainbox3">
+            <div class="mainbottom">
+              <div class="imgbox" onclick="window.open('https:www.naver.com')">
+                <div class="circle">
+                  <img src="./naver.png" alt="naver" class="img123" />
+                </div>
+                <div class="circlename">NAVER</div>
+                <div class="hoverimg">
+                  <img src="./more.png" alt="more" class="moreimg" />
+                </div>
+              </div>
+              <div
+                class="imgbox"
+                onclick="window.open('https:www.google.com/')"
+              >
+                <div class="circle">
+                  <img
+                    src="./Goolglecircle.png"
+                    alt="googlecircle"
+                    class="img123"
+                  />
+                </div>
+                <div class="circlename">Google</div>
+                <div class="hoverimg">
+                  <img src="./more.png" alt="more" class="moreimg" />
+                </div>
+              </div>
+              <div class="imgbox" onclick="window.open('https:github.com/')">
+                <div class="circle">
+                  <img src="./GitHub.png" alt="githubicon" class="img123" />
+                </div>
+                <div class="circlename">GitHub</div>
+                <div class="hoverimg">
+                  <img src="./more.png" alt="more" class="moreimg" />
+                </div>
+              </div>
+              <div class="imgbox clickable-image">
+                <div class="circle circlebackground">
+                  <img src="./add.png" alt="plus" class="plus" />
+                </div>
+                <div class="circlename">바로가기 추가</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box3">
+        <div class="bottombar">
+          <div class="bottombutton clickable-image">
+            <div class="fontbox">Chrome 맞춤설정</div>
+          </div>
+          <div class="bottomicon">
+            <div class="bottomiconpen">
+              <img src="./pen.png" alt="pen" class="pen" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const dropdownButton = document.querySelector(".dropdown-button");
+      const dropdownMenu = document.querySelector(".dropdown-menu");
+
+      dropdownButton.addEventListener("click", () => {
+        dropdownMenu.classList.toggle("open");
+      });
+
+      window.addEventListener("click", (event) => {
+        if (
+          !event.target.matches(".dropdown-button") &&
+          !event.target.closest(".dropdown-menu")
+        ) {
+          dropdownMenu.classList.remove("open");
+        }
+      });
+
+      // 드롭박스 script
+      //스크립트 태그 alert
+      const clickableImages = document.querySelectorAll(".clickable-image");
+      clickableImages.forEach((image) => {
+        image.addEventListener("click", () => {
+          alert("준비 중입니다.");
+        });
+      });
+      // 스크립트 태그 alert끝
+    </script>
+  </body>
+</html>

@@ -1,0 +1,370 @@
+/* 헤더 */
+.box1 {
+  width: 100%;
+  height: 80px;
+}
+/* 메인 */
+.box2 {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+/* 푸터 */
+.box3 {
+  width: 100%;
+  height: 65px;
+}
+/* 헤더 메인바 */
+.mainbar {
+  width: 300px;
+  height: 80%;
+  margin-right: 10px;
+  float: right;
+  display: flex;
+  justify-content: right;
+}
+/* 메인 */
+.maincontainer {
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
+}
+/* 푸터 바 */
+.bottombar {
+  width: 15%;
+  height: 60%;
+  float: right;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+/* 헤더 오른쪽 상단 아이콘 박스 */
+.righticon {
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 15%;
+  height: 70%;
+  display: inline-block;
+  background-color: white;
+  overflow: hidden;
+  font-size: 13px;
+  color: rgb(87, 87, 87);
+  text-align: center;
+}
+.righticon:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.righticon3 {
+  position: relative;
+  border-radius: 50%;
+}
+
+.righticon4 {
+  border-radius: 50%;
+}
+
+.righticon3:hover,
+.righticon4:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.rightlogo {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 33px;
+  top: 28px;
+}
+
+.rightlogo2 {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+a {
+  text-decoration-line: none;
+  text-decoration-color: black;
+  color: rgb(56, 56, 56);
+}
+
+a:visited {
+  color: rgb(56, 56, 56);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+/* 메인 구글 로고+검색창+아이콘 박스 */
+.mainbox {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* 메인 구글 로고 박스 */
+
+.mainbox1 {
+  margin-top: 25px;
+  width: 65%;
+  height: 25%;
+}
+
+/* 메인 검색창 박스 */
+.mainbox2 {
+  width: 85%;
+  height: 30%;
+}
+
+/* 메인 검색창 하단 아이콘 이름 박스 */
+.mainbox3 {
+  width: 95%;
+  height: 30%;
+}
+
+/* 메인 구글 로고 */
+.googlelogo {
+  width: auto;
+  height: 100%;
+}
+
+.inputfind {
+  width: 70%;
+  height: 40%;
+  border-radius: 50px;
+  margin-top: 35px;
+  font-size: 16px;
+  padding-left: 50px;
+  border: none;
+  box-shadow: 0px 1px 5px rgb(174, 174, 174);
+  color: black;
+  position: relative;
+  /*filter: drop-shadow(5px, rgb(205, 205, 205));*/
+}
+input::placeholder {
+  color: rgb(174, 174, 174);
+}
+
+/* 인풋창 아이콘 */
+
+.inputicon1 {
+  left: 290px;
+  top: 292px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+
+.inputicon2 {
+  right: 320px;
+  top: 295px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.inputicon3 {
+  right: 290px;
+  top: 295px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+/* 메인 아이콘+이름 */
+.imgbox {
+  width: 50px;
+  height: 70px;
+  padding: 15px 30px 35px 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 5px;
+}
+
+.imgbox:hover {
+  background-color: rgb(231, 230, 230);
+}
+
+.hoverimg {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  text-align: center;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+
+.moreimg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 3px;
+  top: 3px;
+  display: none;
+}
+
+.hoverimg:hover {
+  background-color: rgb(208, 206, 206);
+}
+
+.hoverimg:hover .moreimg {
+  display: block;
+}
+
+.mainbottom {
+  display: flex;
+  margin: 0px auto;
+}
+
+.circle {
+  background-color: gainsboro;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.img123 {
+  width: 25px;
+  height: 25px;
+}
+.circlebackground {
+  background-color: rgb(211, 228, 255);
+}
+.plus {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.circlename {
+  position: absolute;
+  top: 85px;
+  font-size: 13px;
+  white-space: nowrap;
+}
+/* 하단 버튼 */
+.bottombar {
+  position: relative;
+}
+
+.bottombutton {
+  width: 85%;
+  height: 80%;
+  background-color: rgb(211, 228, 255);
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 8px;
+  text-align: center;
+  box-shadow: 0 6px 6px -7px;
+}
+
+.bottombutton:hover {
+  background-color: rgb(194, 210, 235);
+}
+
+.fontbox {
+  font-size: 13px;
+  left: 38px;
+  position: absolute;
+  top: 7px;
+}
+
+.pen {
+  width: 17px;
+}
+
+.bottomiconpen {
+  position: absolute;
+  left: 43px;
+  top: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* 드롭다운 */
+
+/* 드롭다운 */
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 240px;
+  padding: 10px;
+}
+
+.dropdown-menu.open {
+  display: block;
+}
+
+.dropdown-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.dropdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-item i {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.dropdown-item span {
+  font-size: 12px;
+}
+
+.clickable-image {
+  cursor: pointer;
+}
+
+.dropdown-button {
+  padding: 21px 20px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  right: 21px;
+  top: 25px;
+  background-image: url("./apps.png");
+  background-repeat: no-repeat;
+  background-size: 31px;
+}
